@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+   
     box-sizing: border-box;
     font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
 }
@@ -14,8 +14,28 @@
 .container{
     width: 1200px;
     margin: auto;
+    
 }
 /* header background color + contenuti*/
+
+.float{
+    float:left;
+
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+
+.w-60{
+    width: 60%;
+    
+}
 
 header{
     height: 500px;
@@ -31,28 +51,8 @@ header{
    
 }
 
-.bottom-header{
-    vertical-align: middle;
-    text-align: center;
-   
-}
-
-.float{
-    float:left;
-
-}
-
-.w-20{
-    width: 20%;
-}
-
-.w-60{
-    width: 60%;
-    
-}
-
 #logo{
-    
+
 }
 
 ul{
@@ -74,18 +74,63 @@ a{
     
 }
 
-/* buttons */
+.bottom-header{
+    text-align: center;
+    position: relative;
+    
+   
+}
+.spotlight{
+    background-image: url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+    
+}
 
-.btn{
+.spotlight-text{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+#discord-title{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px
+}
+
+.discord-info{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 1.5em
+}
+
+   
+/* buttons */
+.btn-login{
     background-color:white;
     color: black;
     padding: 10px 10px;
     border-radius: 20px;
+    text-align: right;
+}
+
+.btn-white{
+    background-color:white;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 30px;
 }
 
 .btn-dark{
     background-color: #23272A;
-    color:white
+    color:white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-left: 30px;
 
 }
 
@@ -93,10 +138,52 @@ a{
     color:#3161E0;
 }
 
-.spotlight{
-    background-image: url(../img/jumbo.png);
-    height: 500px;
-    background-size: cover;
-
+/* MAIN */
+.contained{
+    margin-top: 20%;
 }
 
+.study{
+    background-image: url(../img/item1.svg);
+    background-size: cover;
+    height: 500px;
+}
+
+.just-chilling{
+    background-image:url(../img/item2.svg);
+    background-size: cover;
+    height: 400px;
+   
+}
+
+.fandom{
+    background-image:url(../img/item3.svg);
+    background-size: cover;
+    height: 500px;
+    text-align: right;
+}
+
+.video-call{
+    background-image:url(../img/item4-big.svg);
+    background-size: cover;
+    height: 800px;
+    
+}
+
+h2{
+    color: #23272A;
+    font-size: 40px;
+}
+
+title{
+    text-align: center;
+}
+
+p{
+    margin-top: 30px;
+}
+
+.more-info{
+    margin-left: 10%;
+
+}
