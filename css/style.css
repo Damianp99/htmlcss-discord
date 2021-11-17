@@ -18,13 +18,23 @@
 /* header background color + contenuti*/
 
 header{
-    height: 600px;
+    height: 500px;
     background-color:#3161E0
 }
 
 .top-header{
     height: 70px;
     width: 100%;
+    text-align: center;
+    line-height: 70px;
+    
+   
+}
+
+.bottom-header{
+    vertical-align: middle;
+    text-align: center;
+   
 }
 
 .float{
@@ -38,6 +48,11 @@ header{
 
 .w-60{
     width: 60%;
+    
+}
+
+#logo{
+    
 }
 
 ul{
@@ -47,6 +62,41 @@ ul{
 
 li{
     display: inline;
+    padding: 25px;
+   
+    
 }
 
+a{
+    text-decoration: none;
+    color:white ;
+    
+    
+}
+
+/* buttons */
+
+.btn{
+    background-color:white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.btn-dark{
+    background-color: #23272A;
+    color:white
+
+}
+
+.btn:hover{
+    color:#3161E0;
+}
+
+.spotlight{
+    background-image: url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+
+}
 
